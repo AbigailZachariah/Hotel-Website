@@ -9,22 +9,20 @@ body{
     display: inline-block;
     position: absolute;
     left: 30px;
-    top: 4px;
+    top: 12px;
     border: 24px solid #0F172A;
 }
 .right{
     /* To place in extreme right */
     position: absolute;
     right: 30px;
-    top: 4px;
+    top: 12px;
     display: inline-block;
     border: 24px solid #0F172A;
 }
 .mid{
     display: block;
     width:33%;
-    margin: 4px auto;
+    margin: 12px auto;
     border: 24px solid #0F172A;
-    /* To keep in center */
-    margin: auto;
 }
