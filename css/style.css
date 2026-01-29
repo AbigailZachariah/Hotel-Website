@@ -1,0 +1,30 @@
+/* css Reset */
+body{
+    margin:0px;
+    padding: 0px;
+    /* background image mention path in wrl */
+    background: url('../img/Hotel bg.jpg');
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 4px;
+    border: 24px solid #0F172A;
+}
+.right{
+    /* To place in extreme right */
+    position: absolute;
+    right: 30px;
+    top: 4px;
+    display: inline-block;
+    border: 24px solid #0F172A;
+}
+.mid{
+    display: block;
+    width:33%;
+    margin: 4px auto;
+    border: 24px solid #0F172A;
+    /* To keep in center */
+    margin: auto;
+}
