@@ -8,21 +8,44 @@ body{
 .left{
     display: inline-block;
     position: absolute;
-    left: 30px;
+    left: 26px;
     top: 12px;
-    border: 24px solid #0F172A;
+    background-color:#97b4adde ;
+    border: 2px solid #054133de;
+}
+.left img{
+    width:60px;
 }
 .right{
     /* To place in extreme right */
     position: absolute;
-    right: 30px;
+    right: 26px;
     top: 12px;
     display: inline-block;
-    border: 24px solid #0F172A;
+    border: 2px solid #054133de;
+    background-color:#97b4adde ;
 }
 .mid{
     display: block;
-    width:33%;
-    margin: 12px auto;
-    border: 24px solid #0F172A;
+    width:30%;
+    margin: 18px auto;
+    border: 2px solid #054133de;
+    background-color:#97b4adde ;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding:14px 1px;
+    font-size: 20px;
+    margin:2px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:#0d2d25de ;
 }
