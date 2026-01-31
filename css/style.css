@@ -60,11 +60,12 @@ body {
     padding: 4px 14px;
     margin: 0px 5px;
     border-radius: 6px;
-    background-color: #97b4adde;
+    background-color: cadetblue;
     color: #072f25de;
     font-size: 14px;
     border: 2px solid #0d2d25de;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -72,26 +73,51 @@ body {
     font-family: cursive;
     color: black;
 }
-
+.Welcome h1{
+    color: #c8a534;
+    text-shadow: 4px 5px 3px #f7E7CE;
+    font-size: 190px;
+    position:absolute;
+    top:75px;
+    left:33px;
+}
+.Welcome p{
+    position: absolute;
+    top:50%;
+    left:7%;
+    font-family:"Edu NSW ACT Cursive", cursive;
+    font-size: 45px;
+    font-weight: 500;
+    color:#9f7b37;
+    text-shadow:4px 3px 4px #f7E7CE ;
+}
 .container {
     color: rgb(0, 0, 0);
     border: 3px solid #054133;
     background-color: rgb(151,180,173,0.85);
     border-radius: 23px;
-    margin: -1px 44px;
-    padding: 9px 15px;
+    position: absolute;
+    right: 50px;
+    top:185px;
+    padding: 18px 15px;
     width: 30%;
 }
 .forms{
     margin:6px;
     padding: 3px;
+    font-family:Times, 'Times New Roman', serif;
+    font-size: large;
 }
 .forms input{
     padding: 3px 7px;
-    width: 140px;
+    width: 160px;
     font-family: cursive;
     border: solid 1px black;
     font-size: 15px;
+}
+.forms label{
+    display: inline-block;
+    width: 140px;
 }
 .bt{
     padding: 4px 14px;
