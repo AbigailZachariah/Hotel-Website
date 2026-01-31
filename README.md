@@ -10,6 +10,5 @@ This project focuses on clean layout, background image styling, and basic UI des
 ## ✨ Features
 - Full-screen background image
 - Clean and minimal design
-- 
 ## 🎯 Purpose
 This project was created to practice front-end fundamentals using pure HTML and CSS, without any frameworks or JavaScript.
