@@ -9,26 +9,23 @@ body{
     display: inline-block;
     position: absolute;
     left: 26px;
-    top: 12px;
-    background-color:#97b4adde ;
-    border: 2px solid #054133de;
+    top: 25px;
 }
 .left img{
-    width:60px;
+    width:124px;
+    filter: invert(100%);
 }
 .right{
     /* To place in extreme right */
     position: absolute;
-    right: 26px;
-    top: 12px;
+    right: 16px;
+    top: 27px;
     display: inline-block;
 }
 .mid{
     display: block;
     width:33%;
-    margin: 18px auto;
-    border: 2px solid #054133de;
-    background-color:#97b4adde ;
+    margin: 18px auto;;
 }
 .navbar{
     display: inline-block;
@@ -41,12 +38,13 @@ body{
     text-decoration: none;
     padding:10px 3px;
     font-size: 20px;
+    font-weight: 700;
     margin:2px;
     width: 35px;
 }
 .navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
-    color:#0d2d25de ;
+    color:rgb(127, 201, 54);
 }
 .btn{
     padding: 4px 14px;
